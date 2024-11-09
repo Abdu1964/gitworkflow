@@ -35,7 +35,7 @@ jobs:
           echo test, and deploy your project.
       - name: dependancy_2
         run: npm install htmlhint --save-dev
-      - name: Run hello .test
+      - name: Run test.html
         run: npx htmlhint  hello.html
         
 
